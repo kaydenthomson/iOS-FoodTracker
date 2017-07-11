@@ -14,6 +14,7 @@
 		5DB13B3F1F0763E300F77FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB13B3D1F0763E300F77FF5 /* LaunchScreen.storyboard */; };
 		5DB13B4A1F0763E300F77FF5 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB13B491F0763E300F77FF5 /* FoodTrackerTests.swift */; };
 		EB292B6D1F0AD46800A0D3FC /* RatingControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB292B6C1F0AD46700A0D3FC /* RatingControlView.swift */; };
+		EB41994B1F13CFC8009C5DD6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB41994A1F13CFC8009C5DD6 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		5DB13B491F0763E300F77FF5 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		5DB13B4B1F0763E300F77FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB292B6C1F0AD46700A0D3FC /* RatingControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControlView.swift; sourceTree = "<group>"; };
+		EB41994A1F13CFC8009C5DD6 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,9 @@
 		5DB13B331F0763E300F77FF5 /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
-				5DB13B341F0763E300F77FF5 /* AppDelegate.swift */,
-				5DB13B361F0763E300F77FF5 /* ViewController.swift */,
+				EB41994A1F13CFC8009C5DD6 /* Meal.swift */,
 				EB292B6C1F0AD46700A0D3FC /* RatingControlView.swift */,
+				5DB13B361F0763E300F77FF5 /* ViewController.swift */,
 				5DB13B381F0763E300F77FF5 /* Main.storyboard */,
 				5DB13B541F07641500F77FF5 /* Supporting Files */,
 			);
@@ -100,6 +102,7 @@
 		5DB13B541F07641500F77FF5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5DB13B341F0763E300F77FF5 /* AppDelegate.swift */,
 				5DB13B3B1F0763E300F77FF5 /* Assets.xcassets */,
 				5DB13B3D1F0763E300F77FF5 /* LaunchScreen.storyboard */,
 				5DB13B401F0763E300F77FF5 /* Info.plist */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB41994B1F13CFC8009C5DD6 /* Meal.swift in Sources */,
 				5DB13B371F0763E300F77FF5 /* ViewController.swift in Sources */,
 				EB292B6D1F0AD46800A0D3FC /* RatingControlView.swift in Sources */,
 				5DB13B351F0763E300F77FF5 /* AppDelegate.swift in Sources */,
